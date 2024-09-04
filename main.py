@@ -4,6 +4,8 @@ import csv
 from PIL import Image
 from io import BytesIO
 import os
+
+
 def parsing():
     url = f'http://aligulac.com/periods/latest/?page={1}&sort=&race=ptzrs&nats=all'
     headers = {
